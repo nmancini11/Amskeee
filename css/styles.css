@@ -1,12 +1,12 @@
 .row.full {
 	background: url(../images/home-bg.png) 50% 0 no-repeat fixed; 
-	height: 520px;
+	height: 480px;
 	text-align: center;
 	color: white;
 }
 
 .row.second-full {
-	background: url(../images/home-2-bg.png) 50% 100px no-repeat fixed; 
+	background: url(../images/home-2-bg.png) 50% 0 no-repeat fixed; 
 	height: 400px;
 	text-align: center;
 	color: white;
@@ -21,7 +21,6 @@
 .second-full p {
 	padding: 100px 200px;
 	font-size: 1.5em;
-
 }
 
 .row.full h2 {
@@ -46,3 +45,29 @@
 	text-align: center;
 }
 
+
+#whats-happening {
+	padding: 40px;
+}
+
+#whats-happening h5 {
+	margin-top: 30px;
+}
+
+footer {
+	background-color: #00284e;
+	color: white;
+	height: 250px;
+	padding: 20px;
+	text-align: left;
+}
+
+footer p, footer h4{
+	color: white;
+	line-height: 2em;
+	margin: 0px;
+}
+
+footer p img {
+	margin-right: 15px;
+}

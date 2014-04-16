@@ -1,0 +1,48 @@
+.row.full {
+	background: url(../images/home-bg.png) 50% 0 no-repeat fixed; 
+	height: 520px;
+	text-align: center;
+	color: white;
+}
+
+.row.second-full {
+	background: url(../images/home-2-bg.png) 50% 100px no-repeat fixed; 
+	height: 400px;
+	text-align: center;
+	color: white;
+}
+
+.full p, .second-full p {
+	font-family: 'Georgia';
+	font-size: 1.2em;
+	font-weight: lighter;
+}
+
+.second-full p {
+	padding: 100px 200px;
+	font-size: 1.5em;
+
+}
+
+.row.full h2 {
+	color: white;
+	font-size: 3em;
+	font-family: 'Fjalla', sans-serif;
+	letter-spacing:-2px;
+	margin-top: 150px;
+	font-weight: bold;
+}
+
+.home-section {
+	text-align: left;
+	margin-top: 20px;
+}
+
+.home-section p {
+	margin: 30px 40px;
+}
+
+.center {
+	text-align: center;
+}
+

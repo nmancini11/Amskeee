@@ -1,8 +1,60 @@
+.max {
+ max-width: 1024px;
+ margin: 0px auto;
+}
+
 .row.full {
 	background: url(../images/home-bg.png) 50% 0 no-repeat fixed; 
 	height: 480px;
 	text-align: center;
+}
+
+.row.personal-insurance {
+	background: url(../images/personal-insurance-bg.png) 50% 0 no-repeat fixed; 
+	height: 400px;
+	text-align: center;
+}
+
+.row.news {
+	background: url(../images/news-bg.png) 50% 100px no-repeat fixed; 
+	height: 400px;
+	text-align: center;
+}
+
+.row.camp-insurance {
+	background: url(../images/camp-insurance-bg.png) 50% 0 no-repeat fixed; 
+	height: 400px;
+	text-align: center;
+}
+
+.row.business-insurance {
+	background: url(../images/business-insurance-bg.png) 50% 100px no-repeat fixed; 
+	height: 385px;
+	text-align: center;
+}
+
+.row.staff {
+	background: url(../images/staff-bg.png) 50% 100px no-repeat fixed; 
+	height: 385px;
+	text-align: center;
+}
+
+.row.about{
+	background: url(../images/about-bg.png) 50% 100px no-repeat fixed; 
+	height: 400px;
+	text-align: center;
+}
+
+.row.personal-secondary {
+	background: #e6fff4; 
+	height: 300px;
+	padding: 30px 30px 300px 30px; 
+	text-align: center;
 	color: white;
+}
+
+.personal-secondary p {
+	color: #00284e;
 }
 
 .row.second-full {
@@ -23,14 +75,26 @@
 	font-size: 1.5em;
 }
 
-.row.full h2 {
+h2 {
 	color: white;
 	font-size: 3em;
 	font-family: 'Fjalla', sans-serif;
 	letter-spacing:-2px;
-	margin-top: 150px;
+	margin-top: 100px;
+	font-weight: bold;
+	text-shadow: 2px 2px 20px #000000;
+}
+
+h4{
+ line-height: 3em;
+}
+
+h4.staff {
+	line-height: 3em;
+	font-size: 2em;
 	font-weight: bold;
 }
+
 
 .home-section {
 	text-align: left;
@@ -41,10 +105,22 @@
 	margin: 30px 40px;
 }
 
+.pi-main {
+	padding: 20px;
+}
+
+
+#pi-2 {
+	margin: 70px auto;
+}
+
 .center {
 	text-align: center;
 }
 
+#endorsed {
+	margin: 30px auto;
+}
 
 #whats-happening {
 	padding: 40px;
@@ -52,6 +128,36 @@
 
 #whats-happening h5 {
 	margin-top: 30px;
+}
+
+.news {
+	margin: auto 50px;
+}
+
+#maps-canvas {
+	height: 400px;
+}
+
+#contact p {
+	font-size: .8em;
+}
+
+#contact-info {
+	margin: 30px auto;
+}
+
+#login {
+	min-height: 400px;
+	max-height: 800px;
+}
+
+p.news {
+	margin: 0 100px 10px 50px;
+}
+
+h4.news {
+	margin-top: 30px;
+	line-height: 2em;
 }
 
 footer {

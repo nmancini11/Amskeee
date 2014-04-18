@@ -37,10 +37,6 @@
         <li><a href="news.html">NEWS</a></li>
         <li><a href="contact.html">CONTACT</a></li>
       </ul>
-
-      <ul class="right">
-        <li><a href="login.html">LOGIN</a></li>
-      </ul>
     </section>
   </nav>
 </div>
@@ -52,37 +48,80 @@
  
     <!-- Content Slider -->
  
-    <div class="row about">
-      <h2 class="animate fadeInDown">ABOUT AMSKIER INSURANCE</h2>
+    <div class="row personal-insurance">
+      <h2 class="animate fadeInDown">PERSONAL INSURANCE</h2>
     </div>
  
-<div class="max">
+ 
 <div class="row">
-      <div class="large-8 small-12 columns animated fadeInUp">
+      <div class="large-6 small-12 columns animated fadeInUp">
         <p>AMSkier is the largest direct insurer of children's camps and youth programs in the country, insuring camps and youth programs throughout the United States and around the world.<br><br>
 
         AMSkier has been insuring children's camps since the 1930s and is known for having "Broad Shoulders, Bright Ideas" that are exclusively available to AMSkier Clients.<br><br>
 
         AMSkier's Camp Program insures all lines of cover including property, liability, vehicles, workers' compensation, excess liability (SKI-brella,) camper medical, directors and officers, and more. AMSkier is a program administrator for A+ rated insurance companies with authority for binding, underwriting, claims oversight, and policy issuance.
         </p>
+        <a href="#">Learn More</a>
       </div>
 
-      <div class="large-4 small-12 columns animated fadeInUp">
+      <div class="large-5 small-12 columns animated fadeInUp">
         <img src="images/igh.png"/>
       </div>
 </div>
 <div class="row">
-      <div class="large-4 small-12 columns animated fadeInUp">
+      <div class="large-5 small-12 columns animated fadeInUp">
         <img src="images/igh.png"/>
       </div>
-      <div class="large-8 small-12 columns animated fadeInUp">
-        <h4>ABOUT HAWLEY, PENNSYLVANIA</h4>
-        <p>Nestled in the Pocono Mountains along Route 6, and situated between Honesdale and Lake Wallenpaupack, Downtown Hawley is the kind of quaint and friendly small town where one may arrive as a visitor and end up calling home. Hawley's strong sense of pride and its commitment to preserving its connection to the Delaware and Hudson Canal, the Lackawaxen River, and the Erie Railroad are evident throughout the community. Discover Hawley's celebrated heritage and its historical architecture. This family friendly, fun-filled hub is a place where kids of all ages can explore, learn, and experience all that Hawley has to offer.
+      <div class="large-6 small-12 columns animated fadeInUp">
+        <p>AMSkier also has its own re-insurance company which makes them unique. They are willing to put their capital at risk.<br><br>
 
+        AMSkier has formed AMSkier Partners, Inc. where seasoned and experienced camp directors and some of the most qualified people in camping come together in their specific areas of expertise including inappropriate intimate behavior issues, legal issues, public relations situations, behavior issues, emergency preparation, security, and health care situations. AMSkier Partners, Inc. is always expanding with new professionals that are eager to become safety partners with every AMSkier Camp.
         </p>
+        <a href="#">Learn More</a>
       </div>
 </div>
+<div class="row">
+      <div class="large-6 small-12 columns animated fadeInUp">
+        <p>At AMSkier, the insurance transaction is just the beginning. These innovative programs become an important part of the AMSkier relationship with its camps. This includes The Gene Ezersky Camp Safety College, Camp-ALERT Network, SAFETYunderwriters, Broad and Bright newsletters, The Staffer Index, Safety Workshops, The AMSkier Foundation, Blue Skies, 866-SKIER WC, The Ben and Barbara Appelbaum Forums, AMSkier Partners, Inc. and a whole lot more.
+        <br><br>
+        We welcome opportunities to develop new relationships with camp directors (that may include your insurance providers).
+        </p>
+        <a href="#">Learn More</a>
+      </div>
+
+      <div class="large-5 small-12 columns animated fadeInUp">
+        <img src="images/igh.png"/>
+      </div>
 </div>
+
+  <div class="row personal-secondary">
+      <div class="large-4 columns center">
+        <h4>Starter Forms</h4>
+        <p>Just starting out? Fill out this quick 
+starter form to jumpstart the process.</p>
+        <img src="images/clipboard.png" />
+      </div>
+      <div class="large-4 columns center">
+        <h4>Make Payments Online</h4>
+        <p>Make a fast and easy payment straight from your bank account.</p>
+        <img src="images/card.png" />
+      </div>
+      <div class="large-4 columns center">
+        <h4>Starter Forms</h4>
+        <p>Download all the necessary forms you may need in PDF format.</p>
+        <img src="images/clipboard.png" />
+      </div>
+    </div>
+
+    <div id="endorsed" class="row">
+        <div class="large-12 columns center">
+          <h4>ENDIRSED BY AMERICA'S FINEST CAMP DIRECTOR'S</h4>
+          <p>“Quote goes here. This is just filler text. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+          <label>-PERSONS NAME & POSITION HERE</label><br><br>
+          <p>“Quote goes here. This is just filler text. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+          <label>-PERSONS NAME & POSITION HERE</label>
+        </div>
+      </div>  
  
     <!-- Footer -->
  

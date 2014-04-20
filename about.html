@@ -20,7 +20,7 @@
       <!-- Title Area -->
       <li class="name">
         <h1>
-          <a href="#">
+          <a href="index.html">
             <img src="images/amskier-logo.png" alt"AMSkier Logo" />
           </a>
         </h1>
@@ -31,7 +31,15 @@
     <section class="top-bar-section">
       <!-- Right Nav Section -->
       <ul class="left">
-        <li><a href="index.html">OUR INSURANCE</a></li>
+        <li class="has-dropdown">
+          <a class="active" href="#">OUR INSURANCE</a>
+          <ul class="dropdown">
+            <li><a href="camp-insurance.html">CAMP INSURANCE</a></li>
+            <li><a href="personal-insurance.html">PERSONAL INSURANCE</a></li>
+            <li><a href="business-insurance.html">BUSINESS INSURANCE</a></li>
+          </ul>
+        </li>
+        <!-- <li><a href="index.html">OUR INSURANCE</a></li> -->
         <li><a href="staff.html">STAFF</a></li>
         <li><a href="about.html">ABOUT</a></li>
         <li><a href="news.html">NEWS</a></li>
@@ -53,11 +61,12 @@
     <!-- Content Slider -->
  
     <div class="row about">
-      <h2 class="animate fadeInDown">ABOUT AMSKIER INSURANCE</h2>
+      <h3 class="animate fadeInDown">ABOUT AMSKIER INSURANCE</h3>
     </div>
  
 <div class="max">
 <div class="row">
+  <section class="short">
       <div class="large-8 small-12 columns animated fadeInUp">
         <p>AMSkier is the largest direct insurer of children's camps and youth programs in the country, insuring camps and youth programs throughout the United States and around the world.<br><br>
 
@@ -67,12 +76,14 @@
         </p>
       </div>
 
-      <div class="large-4 small-12 columns animated fadeInUp">
+      <div class="large-4 small-12 columns animated fadeInUp center">
         <img src="images/igh.png"/>
       </div>
+    </section>
 </div>
 <div class="row">
-      <div class="large-4 small-12 columns animated fadeInUp">
+  <section class="short">
+      <div class="large-4 small-12 columns animated fadeInUp center">
         <img src="images/igh.png"/>
       </div>
       <div class="large-8 small-12 columns animated fadeInUp">
@@ -81,6 +92,7 @@
 
         </p>
       </div>
+    </section>
 </div>
 </div>
  
@@ -88,7 +100,7 @@
  
       <footer class="row">
         <div class="large-12 columns">
-            <div class="row">
+            <div class="max">
                 <div class="large-5 columns">
                   <h4>CONTACT<h4>
                     <p><img src="images/map.png">Directions to 209 Main Avenue Hawley, PA 18428</p>

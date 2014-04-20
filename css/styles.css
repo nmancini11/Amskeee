@@ -1,19 +1,134 @@
+@font-face{ 
+	font-family: 'BebasNeue';
+	src: url(../fonts/BebasNeue-webfont.eot);
+	src: url(../fonts/BebasNeue-webfont.eot?iefix) format('eot'),
+	     url(../fonts/BebasNeue-webfont.woff) format('woff'),
+	     url(../fonts/BebasNeue-webfont.ttf) format('truetype'),
+	     url(../fonts/BebasNeue-webfont.svg#webfont) format('svg');
+}
+
+@font-face{ 
+	font-family: 'BebasNeueLight';
+	src: url(../fonts/BebasNeue-Light.woff) format('woff'),
+}
+
+button {
+	font-family: 'BebasNeue';	
+}
+
+h2 {
+	font-size: 2em;
+	color: #00284e;
+	font-family: 'BebasNeue';
+}
+
+h3 {
+	color: white;
+	font-size: 3em;
+	font-family: 'BebasNeue';
+	margin-top: 100px;
+	text-shadow: 2px 2px 20px #000000;
+}
+
+h4{
+ font-size: 2em;
+}
+
+h5{
+	font-size: 1.5em;
+	color: #777;
+	font-family: 'BebasNeue';
+	font-weight: lighter;
+}
+
+p {
+	font-family: 'Georgia';
+}
+
 .max {
  max-width: 1024px;
  margin: 0px auto;
 }
 
+.center {
+	text-align: center;
+}
+
+/******************/
+/******************/
+/******************/
+/* Home Page */
+
 .row.full {
 	background: url(../images/home-bg.png) 50% 0 no-repeat fixed; 
 	height: 480px;
 	text-align: center;
+	color: white;
 }
 
-.row.personal-insurance {
-	background: url(../images/personal-insurance-bg.png) 50% 0 no-repeat fixed; 
+.row.second-full {
+	background: url(../images/home-2-bg.png) 50% 105px no-repeat fixed; 
 	height: 400px;
 	text-align: center;
+	color: white;
 }
+
+.full p, .second-full p {
+	font-family: 'Georgia';
+	font-size: 1.2em;
+	font-weight: lighter;
+	margin-bottom: 80px;
+}
+
+.second-full p {
+	padding: 100px 200px;
+	font-size: 1.5em;
+}
+
+.home-section {
+	text-align: left;
+	margin: 20px auto;
+}
+
+.home-section p {
+	margin: 30px 15px;
+}
+
+.home-sectin img {
+	height: 100px;
+}
+
+a.wire {
+	background: rbga(0,0,0,0);
+	padding: 10px 30px;
+	border: 3px solid #fff;
+	color: #fff;
+	font-family: 'BebasNeue';	
+}
+
+a.wire:hover {
+	background-color: white;
+	color: #000;
+}
+
+.learn {
+	font-size: 1.4em;
+	font-family: 'BebasNeue';
+	margin: 30px 15px;
+}
+
+#mailing {
+	margin-top: 40px;
+}
+
+#mailing form {
+	margin-bottom: 100px;
+}
+/******************/
+/******************/
+/******************/
+/******************/
+/******************/
 
 .row.news {
 	background: url(../images/news-bg.png) 50% 100px no-repeat fixed; 
@@ -33,11 +148,11 @@
 	text-align: center;
 }
 
-.row.staff {
-	background: url(../images/staff-bg.png) 50% 100px no-repeat fixed; 
-	height: 385px;
-	text-align: center;
-}
+/******************/
+/******************/
+/******************/
+/******************/
+/*** ABOUT PAGE ***/
 
 .row.about{
 	background: url(../images/about-bg.png) 50% 100px no-repeat fixed; 
@@ -45,10 +160,29 @@
 	text-align: center;
 }
 
+section.short {
+	margin: 20px auto;
+}
+
+/*******************/
+/*******************/
+/*******************/
+/**** PERSONAL INSURANCE PAGE ******/
+/*******************/
+/*******************/
+/*******************/
+.row.personal-insurance {
+	background: url(../images/personal-insurance-bg.png) 50% 0 no-repeat fixed; 
+	height: 400px;
+	text-align: center;
+}
+
 .row.personal-secondary {
 	background: #e6fff4; 
-	height: 300px;
-	padding: 30px 30px 300px 30px; 
+	min-height: 300px;
+	
+	max-height: 100%;
+	padding: 30px 30px 30px 30px; 
 	text-align: center;
 	color: white;
 }
@@ -57,66 +191,17 @@
 	color: #00284e;
 }
 
-.row.second-full {
-	background: url(../images/home-2-bg.png) 50% 0 no-repeat fixed; 
-	height: 400px;
-	text-align: center;
-	color: white;
-}
-
-.full p, .second-full p {
-	font-family: 'Georgia';
-	font-size: 1.2em;
-	font-weight: lighter;
-}
-
-.second-full p {
-	padding: 100px 200px;
-	font-size: 1.5em;
-}
-
-h2 {
-	color: white;
-	font-size: 3em;
-	font-family: 'Fjalla', sans-serif;
-	letter-spacing:-2px;
-	margin-top: 100px;
-	font-weight: bold;
-	text-shadow: 2px 2px 20px #000000;
-}
-
-h4{
- line-height: 3em;
-}
-
-h4.staff {
-	line-height: 3em;
-	font-size: 2em;
-	font-weight: bold;
-}
-
-
-.home-section {
-	text-align: left;
-	margin-top: 20px;
-}
-
-.home-section p {
-	margin: 30px 40px;
-}
-
 .pi-main {
 	padding: 20px;
 }
-
 
 #pi-2 {
 	margin: 70px auto;
 }
 
-.center {
-	text-align: center;
-}
+/*******************/
+/*******************/
+/*******************/
 
 #endorsed {
 	margin: 30px auto;
@@ -130,9 +215,56 @@ h4.staff {
 	margin-top: 30px;
 }
 
+/*************/
+/*************/
+/* News Page */
 .news {
 	margin: auto 50px;
 }
+
+p.news {
+	margin: 0 100px 10px 50px;
+}
+
+h4.news {
+	margin-top: 30px;
+	line-height: 2em;
+}
+
+/*************/
+/*************/
+/*************/
+/*************/
+/* Staff Page */
+.row.staff {
+	background: url(../images/staff-bg.png) 50% 100px no-repeat fixed; 
+	height: 385px;
+	text-align: center;
+}
+
+h4.staff {
+	margin-top: 30px;
+}
+
+h4.staff-name {
+	margin-top: 30px;
+	line-height: 1.3em;
+	color: #777;
+	font-family: 'BebasNeueLight';
+}
+
+h6 {
+	font-size: 1.4em;
+	color: #777;
+	font-family: 'BebasNeueLight';
+}
+
+p.staff {
+	margin-bottom: 70px;
+}
+
+/*************/
+/*************/
 
 #maps-canvas {
 	height: 400px;
@@ -151,19 +283,14 @@ h4.staff {
 	max-height: 800px;
 }
 
-p.news {
-	margin: 0 100px 10px 50px;
-}
 
-h4.news {
-	margin-top: 30px;
-	line-height: 2em;
-}
-
+/*************/
+/*************/
+/* Footer */
 footer {
 	background-color: #00284e;
 	color: white;
-	height: 250px;
+	min-height: 250px;
 	padding: 20px;
 	text-align: left;
 }
@@ -172,6 +299,11 @@ footer p, footer h4{
 	color: white;
 	line-height: 2em;
 	margin: 0px;
+}
+
+footer p {
+	font-family: 'Georgia';
+	font-weight: lighter;
 }
 
 footer p img {
